@@ -11,10 +11,10 @@ class ProjectsPage extends React.Component {
         </div>
         <div className='project-row'>
           <Project
-            name='Minesweeper'
+            name='Escape The Mines'
             classes='aya link-box'
-            href='https://github.com/EulerLoop/Minesweeper'
-            caption=' Created in Java'
+            href='https://github.com/EulerLoop/Escape-the-Mines'
+            caption='Minesweeper with a special recursive algorithm'
           />
           <Project
             name='Archimedes'
@@ -34,7 +34,21 @@ class ProjectsPage extends React.Component {
             name='Password Strength Determiner'
             classes='trendcast link-box'
             href='https://github.com/EulerLoop/Password-Strength-Determiner'
-            caption='Common Passwords Data'
+            caption='Uses Diceware Algorithm'
+          />
+        </div>
+        <div className='project-row'>
+          <Project
+            name='Chatfinity'
+            classes='latex link-box'
+            href='https://github.com/EulerLoop/Chatfinity'
+            caption='Chat client created with Socket.io and Node.js'
+          />
+          <Project
+            name='Hearthstone Pack Simulator'
+            classes='trendcast link-box'
+            href='https://github.com/EulerLoop/Hearthstone-Card-Pack-Simulator'
+            caption='Generates random cards'
           />
         </div>
         <Link to='/'><button className='button-purple'>Home</button></Link>

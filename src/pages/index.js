@@ -19,7 +19,7 @@ class IndexPage extends React.Component {
        reading Science Fiction novels, playing the piano, and socializing with friends. I am interested in occupying a
        <span className='green'> full-stack web development </span> or a<span className='green'> full-stack mobile development </span>position.</p>
     <p></p>
-    <a href='/Resume.pdf' target='_blank'><button className='button-purple'> RÉSUMÉ </button></a>
+    <a href='/ResumeWebsite2.pdf' target='_blank'><button className='button-purple'> RÉSUMÉ </button></a>
     <p></p>
     <Link to='/projects'><button className='button-blue'>PROJECTS</button></Link>
   </div>
