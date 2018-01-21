@@ -1,0 +1,208 @@
+/* Small-medium width tablets: iPad mini */
+
+@media only screen and (max-width: 1280px) {
+    .home h1 {
+      font-size: 400%;
+    }
+  
+    .children {
+      min-height: 100%;
+      margin-bottom: 0px;
+    }
+  
+    .projects {
+      width: 100%;
+      min-height: 100%;
+    }
+  
+    .projects h1 {
+      font-size: 350%;
+    }
+  
+    .projects a {
+      margin-top: 30px;
+    }
+  
+    .footer {
+      font-size: 90%;
+    }
+  
+    button {
+      margin: 15px 15px 0px 15px;
+    }
+  }
+  
+  /* Horizontal Phones */
+  
+  @media only screen and (max-width: 767px) {
+    #canvas {
+      width: 0;
+      height: 0;
+    }
+  }
+  
+  /* Vertical Tablets */
+  
+  @media only screen and (max-width: 670px) {
+    .home {
+      padding-top: 30px;
+      height: 100%;
+      max-width: 525px;
+    }
+  
+    .home h1 {
+      font-size: 350%;
+    }
+  
+    .about-text {
+      max-width: 525px;
+    }
+  }
+  
+  /* Small phone screens*/
+  
+  @media only screen and (max-width: 480px) {
+    @keyframes line_animation {
+      from { transform: scaleX(0); }
+      to { transform: scaleX(290); }
+    }
+  
+    @keyframes line_animation2 {
+      from { transform: scaleX(0); }
+      to { transform: scaleX(285); }
+    }
+  
+    .home {
+      padding-top: 30px;
+      height: 100%;
+      max-width: 290px;
+    }
+  
+    .home h1 {
+      font-size: 300%;
+    }
+  
+    .home h1:after {
+      transform: scaleX(290);
+      margin: 20px auto 5px auto;
+    }
+  
+    .home h2 {
+      padding: 15px;
+      font-size: 125%;
+    }
+  
+    .about-text {
+      max-width: 290px;
+      font-size: 90%;
+      margin-bottom: 15px;
+    }
+  
+    button {
+      font-size: 90%;
+      padding: 10px 15px;
+      margin: 25px 17px 5px 17px;
+    }
+  
+    .projects {
+      padding-top: 30px;
+      width: 100%;
+      min-height: 100%;
+    }
+  
+    .projects h1 {
+      font-size: 250%;
+    }
+  
+    .projects h1:after {
+      transform: scaleX(285);
+      margin-bottom: 10px;
+    }
+  
+    .projects a {
+      margin-top: 30px;
+    }
+  
+    .project-box {
+      width: 285px;
+      height: 150px;
+    }
+  
+    .project-name {
+      padding-top: 65px;
+      font-size: 100%;
+    }
+  
+    .project-name:after {
+      margin: 10px auto 10px auto !important;
+    }
+  
+    .caption {
+      width: 280px;
+      font-size: 72%;
+    }
+  
+    .project-box:hover .project-name, .project-box:hover .caption {
+      -webkit-transform:translate3d(0,-35px,0);
+      transform:translate3d(0,-35px,0);
+    }
+  
+    .button-blue {
+      margin-right: 0px;
+    }
+  
+    .button-purple {
+      margin-left: 0px;
+    }
+  }
+  
+  /* Very narrow screens: iPhone 4, 5 and 5s */
+  
+  @media only screen and (max-width: 320px) {
+    @keyframes line_animation {
+      from { transform: scaleX(0); }
+      to { transform: scaleX(235); }
+    }
+  
+    .home {
+      max-width: 235px;
+    }
+  
+    .home h1 {
+      font-size: 250%;
+    }
+  
+    .home h1:after {
+      transform: scaleX(235);
+      margin: 15px auto 0px auto;
+    }
+  
+    .project-box {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .about-text {
+      max-width: 235px;
+    }
+  
+    .home button {
+      padding: 10px 7px;
+    }
+  
+    .button-blue {
+      margin-right: 0px;
+      margin-left: 6px;
+    }
+  
+    .button-purple {
+      margin-left: 0px;
+      margin-right: 6px;
+    }
+  
+    .footer a {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+  }
+  
