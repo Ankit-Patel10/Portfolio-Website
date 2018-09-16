@@ -4,7 +4,7 @@ class Footer extends React.Component {
   render() {
     return (
       <div className='footer'>
-       <a href='https://github.com/eulerloop' target='_blank' className='git'>
+       <a href='https://github.com/Ankit-Patel10' target='_blank' className='git'>
          <i className='icon git ion-social-github transition'></i>
        </a>
        <a href='https://linkedin.com/in/ankit-patel-10/' target='_blank' className='linkedin'>

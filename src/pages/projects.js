@@ -11,44 +11,72 @@ class ProjectsPage extends React.Component {
         </div>
         <div className='project-row'>
           <Project
-            name='Escape The Mines'
+            name='Televisor'
             classes='aya link-box'
-            href='https://github.com/EulerLoop/Escape-the-Mines'
-            caption='Minesweeper with a special recursive algorithm'
+            href='https://github.com/ankit-patel10/Televisor'
+            caption='Responsive web app created with React to search TV info'
           />
           <Project
             name='Archimedes'
             classes='cannon link-box'
-            href='https://github.com/EulerLoop/Archimedes'
+            href='https://github.com/Ankit-Patel10/Archimedes'
             caption='2D Puzzle Platformer made with Unity'
           />
         </div>
         <div className='project-row'>
           <Project
-            name='Snake Game'
+            name='Album Consensus'
             classes='latex link-box'
-            href='https://github.com/EulerLoop/Snake-Game-created-in-Java'
-            caption='Created in Java for a programming competition'
+            href='https://github.com/ankit-patel10/Album-Consensus'
+            caption='Node web app that displays general consensus on albums'
           />
           <Project
-            name='Password Strength Determiner'
+            name='Discord League Bot'
             classes='trendcast link-box'
-            href='https://github.com/EulerLoop/Password-Strength-Determiner'
-            caption='Uses Diceware Algorithm'
+            href='https://github.com/Ankit-Patel10/Discord-LeagueBuilds-Bot'
+            caption='Discord bot that displays league builds'
           />
         </div>
         <div className='project-row'>
           <Project
             name='Chatfinity'
             classes='latex link-box'
-            href='https://github.com/EulerLoop/Chatfinity'
+            href='https://github.com/Ankit-Patel10/Chatfinity'
             caption='Chat client created with Socket.io and Node.js'
           />
           <Project
             name='Hearthstone Pack Simulator'
             classes='trendcast link-box'
-            href='https://github.com/EulerLoop/Hearthstone-Card-Pack-Simulator'
+            href='https://github.com/Ankit-Patel10/Hearthstone-Card-Pack-Simulator'
             caption='Generates random cards'
+          />
+        </div>
+        <div className='project-row'>
+          <Project
+            name='Escape The Mines'
+            classes='aya link-box'
+            href='https://github.com/Ankit-Patel10/Escape-the-Mines'
+            caption='Minesweeper with a special recursive algorithm'
+          />
+          <Project
+            name='Snake Game'
+            classes='latex link-box'
+            href='https://github.com/Ankit-Patel10/Snake-Game-created-in-Java'
+            caption='Created in Java for a programming competition'
+          />
+        </div>
+        <div className='project-row'>
+        <Project
+            name='Password Strength Determiner'
+            classes='trendcast link-box'
+            href='https://github.com/Ankit-Patel10/Password-Strength-Determiner'
+            caption='Uses Diceware Algorithm'
+          />
+          <Project
+            name='Simple Discord Spam Bot'
+            classes='latex link-box'
+            href='https://github.com/Ankit-Patel10/SimpleDiscordSpamBot'
+            caption='Discord bot that spams messages to specific channels'
           />
         </div>
         <Link to='/'><button className='button-purple'>Home</button></Link>
